@@ -1,5 +1,6 @@
 Import pytest
 from pyspark.sql import SparkSession
+from pyspark.sql.types import *
 from delta import *
 
 def test_create_delta_table():
