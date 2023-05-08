@@ -43,7 +43,7 @@ pip install pytest
 Then, you can run the tests using the pytest command:
 
 ```
-pytest unit_test.py
+pytest unit_testing.py
 ```
 ## Running the Integration Tests
 To run the integration tests, you'll need to have a Spark cluster with the appropriate dependencies installed.
@@ -51,5 +51,5 @@ To run the integration tests, you'll need to have a Spark cluster with the appro
 You can run the integration tests using the pytest command:
 
 ```
-pytest integration_test.py
+pytest integration_testing.py
 ```
